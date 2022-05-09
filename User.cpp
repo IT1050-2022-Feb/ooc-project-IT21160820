@@ -20,11 +20,11 @@ class User {
       strcpy (address, pAddress);
       strcpy (email, pEmail);
       phoneNo = pPhone;
-    };
+    }
     void getUserDetails(){
       cout << "Enter Name : " << name << endl;
       cout << "Enter Address : " << address << endl;
       cout << "Enter Email : " << email << endl;
       cout << "Enter Phone Number : " << phoneNo << endl;
-    };
+    }
 };

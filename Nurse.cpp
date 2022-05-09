@@ -9,11 +9,11 @@ class Nurse : public User {
   public:
     Nurse(){
       strcpy (nurseID, "");
-    };
+    }
     Nurse(char pName[], char pAddress[], char pEmail[], int pPhone, char pNID[]) : User (pName, pAddress, pEmail, pPhone){
       strcpy (nurseID, pNID);
-    };
+    }
     void getNurseID() {
       cout << "Nurse ID : " << nurseID << endl;
-    };
+    }
 };
