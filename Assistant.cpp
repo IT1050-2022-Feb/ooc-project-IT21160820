@@ -4,7 +4,7 @@
 using namespace std;
 
 class Assistant : public User {
-  private:
+  protected:
     char empID[10];
   public:
     Assistant() {

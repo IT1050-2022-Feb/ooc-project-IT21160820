@@ -4,7 +4,7 @@
 using namespace std;
 
 class Nurse : public User {
-  private:
+  protected:
     char nurseID[10];
   public:
     Nurse(){
