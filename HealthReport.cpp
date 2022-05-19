@@ -1,7 +1,7 @@
 //IT21162664
 #include <iostream>
 #include <string>
-#include "health.h"
+#include "HealthReport.h"
 using namespace std;
 
 HealthReport::HealthReport(){
