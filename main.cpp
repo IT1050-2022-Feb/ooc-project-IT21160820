@@ -1,0 +1,43 @@
+#include <iostream>
+#include <string>
+#include "Appointment.h"
+#include "Assistant.h"
+#include "BudgetReport.h"
+#include "campaign.h"
+#include "Donor.h"
+#include "HealthReport.h"
+#include "Nurse.h"
+#include "Order.h"
+#include "User.h"
+
+using namespace std;
+
+int main() {
+  
+  Appointment *app = new Appointment("A001" , "Malabe" , "10-06-2022");
+  app -> displayAppointmentDetails();
+
+  Assistant *assi = new Assistant("001" , "O001" , "BR001" , "Nimali" , "Matara" , "nimali@yahoo.com" , "0712345678" , "Em002");
+  assi -> displayEmpID();
+
+  BudgetReport *br = new BudgetReport("BR001");
+  br -> displayBudgetReport();
+
+  campaign *c = new campaign ("001" , "Nugegoda" , "10-06-2022");
+  c -> displayEventDetails();
+
+  Donor *d = new Donor("Namal" , "Nugegoda" , "namal@gmail.com" , "0777771235" , "D001" , "695236841V" , "male" , "11-02-1969" , "A+" , "H001" , "H005");
+  d -> DisplayDonorDetails();
+
+  HealthReport *hr = new HealthReport("H001");
+  hr -> getreportdetails();
+
+  Nurse *n = new Nurse("A001" ,"H001" , "Kamani" , "Badulla" , "kamani@yahoo.com" , "0715236982" , "N005");
+  n -> getNurseID();
+
+  Order *or = new Order("O001" , "10-06-2022");
+  or -> dispalyOrderDetais();
+  
+  
+  return 0;
+}
