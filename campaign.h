@@ -1,5 +1,5 @@
 //IT21162664
-#pragma onece
+#pragma once
 #include <iostream>
 #include <cstring>
 class Appointment;
@@ -12,7 +12,7 @@ class campaign {
       
    public:
       campaign();
-      voiddisplayEventDetails();
+      void displayEventDetails();
       ~campaign(); 
 };
 

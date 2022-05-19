@@ -1,5 +1,5 @@
 //IT21161056
-#pragma once
+
 #pragma once
 #include <string>
 #include "HealthReport.h"

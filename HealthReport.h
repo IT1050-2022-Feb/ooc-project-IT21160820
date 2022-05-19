@@ -1,5 +1,5 @@
 //IT21162664
-#pragma onece
+#pragma once
 #include <iostream>
 #include <string>
 class HealthReport {
@@ -7,8 +7,8 @@ class HealthReport {
       char hrepNO;
       
    public:
+      HealthReport();
       HealthReport(string hrNO);
-      
       void getreportdetails();
       ~HealthReport(); 
 };

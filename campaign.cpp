@@ -21,5 +21,6 @@ void campaign::displayEventDetails(){
         
       }
       
-campaign::~campaign(){cout << "Deleting campaign" << endl;
-        } 
+campaign::~campaign(){
+  cout << "Deleting campaign" << endl;
+} 

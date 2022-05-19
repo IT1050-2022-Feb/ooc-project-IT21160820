@@ -21,6 +21,5 @@ class Appointment
    public: 
  	  Appointment(string appointmentNO, string appointmentLO, string appointmentDate,Donor *Don);
    	void displayAppointmentDetails();
-   	~Appointment();
-   	
+   	~Appointment();	
 };

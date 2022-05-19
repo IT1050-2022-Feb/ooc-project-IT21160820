@@ -36,11 +36,11 @@ void Donor::DisplayDonorDetails() {
         cout<<"Blood Group : "<<bloodGrp<<endl;
   
         for (int r=0; r<SIZE; r++){
-         reprt[r]->getreportdetails();
-          }
+          reprt[r]->getreportdetails();
+        }
         for( int i = 0; i < noOfAppointments; i++){
-        order[i]-> displayOrders();
-          }
+          order[i]-> displayOrders();
+        }
 }
 void Donor::addAppointment(Appointment *A)
 {
@@ -55,5 +55,5 @@ Donor::~Donor() {
         for (int r=0; r<SIZE; r++){
            delete reprt[r];
           }
-  }
+}
 
