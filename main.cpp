@@ -17,7 +17,7 @@ int main() {
   Appointment *app = new Appointment("A001" , "Colombo" , "05-06-2022");
   app -> displayAppointmentDetails();
 
-  Assistant *assi = new Assistant("001" , "O001" , "BR001" , "Nimali" , "Nugegoda" , "nimali@yahoo.com" , "0712345678" , "Em002");
+  Assistant *assi = new Assistant("001" , "O001" , "BR001" , "Nimali" , "Nugegoda" , "nimali69@yahoo.com" , "0712965678" , "Em002");
   assi -> displayEmpID();
 
   BudgetReport *br = new BudgetReport("BR001");
