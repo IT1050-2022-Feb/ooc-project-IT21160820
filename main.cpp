@@ -26,7 +26,7 @@ int main() {
   campaign *c = new campaign ("001" , "Nugegoda" , "10-06-2022");
   c -> displayEventDetails();
 
-  Donor *d = new Donor("Namal" , "Nugegoda" , "namal@gmail.com" , "0777771235" , "D001" , "695236841V" , "male" , "11-02-1969" , "A+" , "H001" , "H005");
+  Donor *d = new Donor("Kasun" , "Malabe" , "kasun@gmail.com" , "0777771235" , "D002" , "695236841V" , "male" , "11-02-1969" , "A+" , "H001" , "H005");
   d -> DisplayDonorDetails();
 
   HealthReport *hr = new HealthReport("H001");
