@@ -35,7 +35,7 @@ int main() {
   Nurse *n = new Nurse("A001" ,"H001" , "Kamani" , "Badulla" , "kamani@yahoo.com" , "0715236982" , "N005");
   n -> getNurseID();
 
-  Order *or = new Order("O001" , "10-06-2022");
+  Order *or = new Order("O001" , "20-06-2022");
   or -> dispalyOrderDetais();
   
   
