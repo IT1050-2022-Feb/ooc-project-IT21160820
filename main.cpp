@@ -14,16 +14,16 @@ using namespace std;
 
 int main() {
   
-  Appointment *app = new Appointment("A001" , "Malabe" , "10-06-2022");
+  Appointment *app = new Appointment("A001" , "Colombo" , "05-06-2022");
   app -> displayAppointmentDetails();
 
-  Assistant *assi = new Assistant("001" , "O001" , "BR001" , "Nimali" , "Matara" , "nimali@yahoo.com" , "0712345678" , "Em002");
+  Assistant *assi = new Assistant("001" , "O001" , "BR001" , "Nimali" , "Nugegoda" , "nimali@yahoo.com" , "0712345678" , "Em002");
   assi -> displayEmpID();
 
   BudgetReport *br = new BudgetReport("BR001");
   br -> displayBudgetReport();
 
-  campaign *c = new campaign ("001" , "Nugegoda" , "10-06-2022");
+  campaign *c = new campaign ("001" , "Piliyandala" , "06-10-2022");
   c -> displayEventDetails();
 
   Donor *d = new Donor("Kasun" , "Malabe" , "kasun@gmail.com" , "0777771235" , "D002" , "695236841V" , "male" , "11-02-1969" , "A+" , "H001" , "H005");
